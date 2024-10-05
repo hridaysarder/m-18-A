@@ -32,6 +32,13 @@ int main()
     }
     int s;
     cin >> s;
+    // for (int i = 0; i <= n; i++)
+    // {
+    //     for (int j = 0; j <= s; j++)
+    //     {
+    //         dp[i][j] = -1;
+    //     }
+    // }
     if (subset_sum(n, a, s))
         cout << "YES" << endl;
     else
